@@ -1,0 +1,1 @@
+This project is based on the study from the book by Steven F. Lott & Dusty Phillips
