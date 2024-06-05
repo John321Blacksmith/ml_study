@@ -42,3 +42,26 @@ class Sample:
             f'{self.petal_width}\n'
             f'Classified as {classification}'
         )
+        
+    def classify(self, classification: str) -> None:
+        self.classification = classification
+    
+    def matches(self) -> bool:
+        return self.species == self.classification
+
+
+class Hyperparameter:
+    """
+    This object contains a value
+    of quantity of the classification
+    and a K-value of neighboors.
+    """
+    ...
+    
+
+class TrainingData:
+    """
+    This object loads the initial data
+    to be tested and classified.
+    """
+    ...
